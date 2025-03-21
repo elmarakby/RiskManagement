@@ -1,0 +1,74 @@
+{
+	"DesignTimeTarget": {
+		"Service": "/RisksMobile/Services/RiskManagementService.service",
+		"EntitySet": "Risks",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": [],
+		"Caption": "$(L,Risks_Detail)",
+		"_Type": "Control.Type.ActionBar"
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Tags": [],
+						"DetailImage": "",
+						"HeadlineText": "{title}",
+						"Subhead": "{prio}",
+						"BodyText": "",
+						"Footnote": "{impact}",
+						"Description": "{descr}",
+						"StatusText": "{criticality}",
+						"StatusImage": "",
+						"SubstatusImage": "",
+						"SubstatusText": ""
+					},
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "title",
+							"Value": "{title}",
+							"_Type": "KeyValue.Type.Item"
+						},
+						{
+							"KeyName": "prio",
+							"Value": "{prio}",
+							"_Type": "KeyValue.Type.Item"
+						},
+						{
+							"KeyName": "descr",
+							"Value": "{descr}",
+							"_Type": "KeyValue.Type.Item"
+						},
+						{
+							"KeyName": "impact",
+							"Value": "{impact}",
+							"_Type": "KeyValue.Type.Item"
+						},
+						{
+							"KeyName": "criticality",
+							"Value": "{criticality}",
+							"_Type": "KeyValue.Type.Item"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"DataSubscriptions": [],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Risks_Detail"
+}
